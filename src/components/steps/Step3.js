@@ -19,6 +19,10 @@ const Step3 = ({ handleInput, currentStep, fields, errors }) => {
           error={input.error}
         />
       ))}
+      <div
+        class="g-recaptcha"
+        data-sitekey="6LclG9AZAAAAAPLIQwYHiHWjBj6mFx7CGodfPP-Q"
+      ></div>
     </div>
   ) : null;
 };
