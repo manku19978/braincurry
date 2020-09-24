@@ -1,6 +1,7 @@
 import React from "react";
 import Input from "../../common/Input";
-import { inputListOfStep3 } from "../../utils/const";
+import { inputListOfStep3, API_KEY } from "../../utils/const";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Step3 = ({ handleInput, currentStep, fields, errors }) => {
   const { name, email, phn } = fields;
@@ -19,10 +20,7 @@ const Step3 = ({ handleInput, currentStep, fields, errors }) => {
           error={input.error}
         />
       ))}
-      <div
-        class="g-recaptcha"
-        data-sitekey="6LclG9AZAAAAAPLIQwYHiHWjBj6mFx7CGodfPP-Q"
-      ></div>
+      <ReCAPTCHA sitekey={API_KEY} />
     </div>
   ) : null;
 };

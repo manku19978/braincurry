@@ -4,6 +4,8 @@ export const subHeading = {
   3: "Contact Details",
 };
 
+export const API_KEY = "6LclG9AZAAAAAPLIQwYHiHWjBj6mFx7CGodfPP-Q";
+
 export const inputListOfStep1 = (
   team_name,
   location,
