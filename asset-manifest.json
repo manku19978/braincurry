@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/braincurry/static/css/main.97c8601d.chunk.css",
+    "main.js": "/braincurry/static/js/main.f0dcbf94.chunk.js",
+    "main.js.map": "/braincurry/static/js/main.f0dcbf94.chunk.js.map",
+    "runtime-main.js": "/braincurry/static/js/runtime-main.b202a172.js",
+    "runtime-main.js.map": "/braincurry/static/js/runtime-main.b202a172.js.map",
+    "static/js/2.500370db.chunk.js": "/braincurry/static/js/2.500370db.chunk.js",
+    "static/js/2.500370db.chunk.js.map": "/braincurry/static/js/2.500370db.chunk.js.map",
+    "index.html": "/braincurry/index.html",
+    "precache-manifest.bd1ae20d32648d950a3f423fb9cbbf0d.js": "/braincurry/precache-manifest.bd1ae20d32648d950a3f423fb9cbbf0d.js",
+    "service-worker.js": "/braincurry/service-worker.js",
+    "static/css/main.97c8601d.chunk.css.map": "/braincurry/static/css/main.97c8601d.chunk.css.map",
+    "static/js/2.500370db.chunk.js.LICENSE.txt": "/braincurry/static/js/2.500370db.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b202a172.js",
+    "static/js/2.500370db.chunk.js",
+    "static/css/main.97c8601d.chunk.css",
+    "static/js/main.f0dcbf94.chunk.js"
+  ]
+}
