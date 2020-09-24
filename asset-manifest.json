@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/braincurry/static/css/main.97c8601d.chunk.css",
-    "main.js": "/braincurry/static/js/main.1f52e81a.chunk.js",
-    "main.js.map": "/braincurry/static/js/main.1f52e81a.chunk.js.map",
+    "main.js": "/braincurry/static/js/main.261c6bd6.chunk.js",
+    "main.js.map": "/braincurry/static/js/main.261c6bd6.chunk.js.map",
     "runtime-main.js": "/braincurry/static/js/runtime-main.b202a172.js",
     "runtime-main.js.map": "/braincurry/static/js/runtime-main.b202a172.js.map",
     "static/js/2.23f33a51.chunk.js": "/braincurry/static/js/2.23f33a51.chunk.js",
     "static/js/2.23f33a51.chunk.js.map": "/braincurry/static/js/2.23f33a51.chunk.js.map",
     "index.html": "/braincurry/index.html",
-    "precache-manifest.dff52a78d5f8fccab0cc63d04cb3eb78.js": "/braincurry/precache-manifest.dff52a78d5f8fccab0cc63d04cb3eb78.js",
+    "precache-manifest.d02a3d80a312e5143c972ea53ae4f75a.js": "/braincurry/precache-manifest.d02a3d80a312e5143c972ea53ae4f75a.js",
     "service-worker.js": "/braincurry/service-worker.js",
     "static/css/main.97c8601d.chunk.css.map": "/braincurry/static/css/main.97c8601d.chunk.css.map",
     "static/js/2.23f33a51.chunk.js.LICENSE.txt": "/braincurry/static/js/2.23f33a51.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b202a172.js",
     "static/js/2.23f33a51.chunk.js",
     "static/css/main.97c8601d.chunk.css",
-    "static/js/main.1f52e81a.chunk.js"
+    "static/js/main.261c6bd6.chunk.js"
   ]
 }
