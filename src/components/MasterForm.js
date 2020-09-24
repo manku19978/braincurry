@@ -6,7 +6,8 @@ import CommonButton from "../common/CommonButton";
 import { handleValidation } from "../utils/validateForm";
 import ProgressBar from "../common/ProgressBar";
 import withWindowResize from "./withScreenDetails";
-import { subHeading } from "../utils/const";
+import { subHeading, API_KEY } from "../utils/const";
+import ReCAPTCHA from "react-google-recaptcha";
 
 class MasterForm extends Component {
   constructor(props) {
@@ -113,11 +114,14 @@ class MasterForm extends Component {
                 <Step3 {...commonProps} />
               </form>
               {currentStep === 3 ? (
-                <CommonButton
-                  type="submit"
-                  label="Submit"
-                  handleClick={this.handleSubmit}
-                />
+                <>
+                  <ReCAPTCHA sitekey={API_KEY} />
+                  <CommonButton
+                    type="submit"
+                    label="Submit"
+                    handleClick={this.handleSubmit}
+                  />
+                </>
               ) : (
                 <CommonButton
                   label="Continue"
